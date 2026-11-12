@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SIAKAD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SIAKAD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SIAKAD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BST/header/nilaiBST.h" />
+		<Unit filename="BST/implementation/nilaiBST_[nim_anggota_1].cpp" />
+		<Unit filename="BST/implementation/nilaiBST_[nim_anggota_2].cpp" />
+		<Unit filename="Bonus/header/bonus.h" />
+		<Unit filename="Bonus/implementation/bonus.cpp" />
+		<Unit filename="Khusus/header/khusus.h" />
+		<Unit filename="Khusus/implementation/khusus.cpp" />
+		<Unit filename="MLL-01/header/krs.h" />
+		<Unit filename="MLL-01/header/mahasiswa.h" />
+		<Unit filename="MLL-01/header/matakuliah.h" />
+		<Unit filename="MLL-01/implementation/krs/krs_[nim_anggota_1].cpp" />
+		<Unit filename="MLL-01/implementation/krs/krs_[nim_anggota_2].cpp" />
+		<Unit filename="MLL-01/implementation/mahasiswa/mahasiswa_[nim_anggota_1].cpp" />
+		<Unit filename="MLL-01/implementation/mahasiswa/mahasiswa_[nim_anggota_2].cpp" />
+		<Unit filename="MLL-01/implementation/matakuliah/matakuliah_[nim_anggota_1].cpp" />
+		<Unit filename="MLL-01/implementation/matakuliah/matakuliah_[nim_anggota_2].cpp" />
+		<Unit filename="dummy.cpp" />
+		<Unit filename="dummy.h" />
+		<Unit filename="interface.cpp" />
+		<Unit filename="interface.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

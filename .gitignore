@@ -1,0 +1,48 @@
+# Code::Blocks IDE
+
+*.layout
+*.depend
+*.workspace
+*.cbTemp
+*.bak
+
+# Build Output
+
+bin/
+obj/
+build/
+dist/
+
+# Compiled Files
+
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+*.out
+
+# Debug Files
+
+*.pdb
+*.ilk
+*.idb
+
+# Temporary Files
+
+*.tmp
+*.temp
+*.log
+*~
+
+# OS Generated Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Configuration
+.vscode/
+.idea/
