@@ -94,14 +94,14 @@ Fungsionalitas / studi kasus bonus yang dipilih dari topik ini adalah
 │   │
 │   └───MLL-01
 │       ├───header
-│       │       dosen.h
+│       │       matakuliah.h
 │       │       krs.h
 │       │       mahasiswa.h
 │       │
 │       └───implementation
 │           ├───dosen
-│           │       dosen_[nim_anggota_1].cpp
-│           │       dosen_[nim_anggota_2].cpp
+│           │       matakuliah_[nim_anggota_1].cpp
+│           │       matakuliah_[nim_anggota_2].cpp
 │           │
 │           ├───krs
 │           │       krs_[nim_anggota_1].cpp
